@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  cursor: default;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 5rem auto;
+  width: 130rem;
+  height: 170rem;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5rem;
+  border: none;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(#adb5bd, #212529);
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.283);
+}
+
+.overall {
+  width: inherit;
+  height: 120rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.overall p {
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.imgStyle {
+  width: 23rem;
+  border-radius: 1rem;
+  transition: all 0.1s;
+
+}
+
+.imgStyle:hover {
+  cursor: pointer;
+  filter: blur(2px);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.897);
+}
+
+.rowImgs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
