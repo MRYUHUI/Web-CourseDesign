@@ -14,4 +14,8 @@ VS Code作为编辑器
 - JavaScript
 
 ## 电子邮件
+<<<<<<< HEAD
 paidaxingyishujiushi@gmail.com
+=======
+paidaxingyishujiushi@gmail.com
+>>>>>>> e949ea17c956444d6bd824bc932e699afbef7290
